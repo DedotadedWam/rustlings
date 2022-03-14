@@ -36,7 +36,6 @@ fn fruit_basket(basket: &mut HashMap<Fruit, u32>) {
         if !basket.contains_key(&fruit) {
             basket.insert(fruit, 3);
         }
-        // println!("{}", fruit)
     }
 }
 
